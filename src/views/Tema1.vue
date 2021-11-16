@@ -69,7 +69,7 @@
 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1.	Listado y base de datos de proveedores 
+      h2 1.1 Listado y base de datos de proveedores 
 
     p.mb-5 Para el establecimiento del listado y base de datos de los proveedores, se pueden plantear distintas situaciones de partida, como pueden ser:
 
@@ -104,9 +104,9 @@
     .col-lg-10.mx-auto.mb-5
       AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
         .row.justify-content-around.align-items-center(titulo="Búsqueda de información")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-8.mb-4.mb-md-0
             p Realizada a través de Internet, prensa, radio y televisión, publicaciones especializadas, ferias y exposiciones, asociaciones empresariales y de profesionales, cámaras de comercio, ferias y exposiciones comerciales especializadas, bases de datos públicas y privadas, anuarios económicos y otras fuentes.
-          .col-md-6
+          .col-md-3
             figure(data-aos='fade-left')
               img(src='@/assets/curso/t1/f12.svg' alt='imagen relacionada')
         div(titulo="Solicitud de información")
@@ -156,14 +156,14 @@
               li
                 i.fas.fa-angle-right.cac 
                 | De calidad
-          .col-md-6
+          .col-md-3
             figure
               img(src='@/assets/curso/t1/f14.svg' alt='imagen relacionada')
 
     p.text-center.mb-5 La siguiente tabla nos presenta un ejemplo de los aspectos sobre los cuales se podría solicitar información a los proveedores.
 
     .titulo-sexto.color-acento-contenido
-      span Ejemplo aspectos para conocer de los proveedores
+      span <b>Tabla 1.</b> Ejemplo aspectos para conocer de los proveedores
 
     .tabla-a.color-primario.mb-5 
       .p-3.mb-0.fcp
@@ -211,7 +211,7 @@
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2.	Clasificación de proveedores
+      h2 1.2 Clasificación de proveedores
 
     p Encontrados los proveedores, se procede a la selección de los más adecuados mediante un análisis exhaustivo y luego a su eliminación, basándose en los criterios de selección que se hayan elegido, hasta reducir la cantidad a unos pocos proveedores.
     p Con la información que se obtenga en el proceso de selección, se crea una ficha por cada proveedor, en la que se plasmarán las características de los artículos que ofrece y las condiciones comerciales que otorga.
@@ -219,11 +219,11 @@
     .row.justify-content-center
       .col-md-5
         .titulo-sexto.color-acento-contenido
-          span Ejemplo de ficha de proveedores
+          span <b>Tabla 2.</b> Ejemplo de ficha de proveedores
         .tabla-a.color-primario.mb-5 
           table.w350px
             thead
-              tr
+              tr(style='background-color: #F4B55B !important')
                 th Ficha de proveedores
             tbody
               tr
@@ -250,17 +250,17 @@
                 td Plazo de entrega:
       .col-md-5
         figure
-          img(src='@/assets/curso/t1/f14.svg' alt='imagen relacionada')
+          img(src='@/assets/curso/t1/f15.svg' alt='imagen relacionada')
 
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3.	Matriz de evaluación y selección de proveedores
+      h2 1.3 Matriz de evaluación y selección de proveedores
 
     .col-lg-10.mx-auto
       p También es necesario establecer un cuadro comparativo por producto donde se puedan observar las diferencias por proveedor.
 
       .titulo-sexto.color-acento-contenido
-        span Ejemplo diferencias proveedor
+        span <b>Tabla 3.</b> Ejemplo diferencias proveedor
       .tabla-a.color-primario.mb-5 
         .p-3.fcp.mb-0
           h3.mb-0.text-center Producto o Servicio

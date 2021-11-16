@@ -52,7 +52,7 @@
             img(src='@/assets/curso/t2/f2.svg' alt='bodega')
 
     .col-lg-10.mx-auto.mb-5.ofVisible.p-4.fcab20
-      .row.ofVisible.pRelative
+      .row.ofVisible.pRelative.mb-4
         .col-lg-7
           h3 Canal indirecto
           p El fabricante contrata la logística y la comercialización del producto. 
@@ -60,16 +60,17 @@
         .col-lg-5.offsetTop
           figure
             img(src='@/assets/curso/t2/f3.svg' alt='bodega')
-      LineaTiempoD.color-acento-contenido
-        div(titulo='Distribución en corto')
-          p Se da cuando el fabricante entrega al minorista y este último al consumidor final.
-          p Normalmente utilizado en el comercio electrónico cuando la plataforma de e-commerce conecta con el comprador.
-        div(titulo='Distribución en largo')
-          p Desde el productor hasta el mayorista, de ahí al minorista y por último al consumidor. 
-          p Este tipo de distribución es el más común y es propio de pequeños negocios y tiendas de barrio tradicionales.
-        div(titulo='Distribución doble')
-          p Aquella en la que además de mayoristas y minoristas, también interviene un tercer agente distribuidor o agente exclusivo que participa en la comercialización de productos.
-          p Es propia de franquicias o agencias de viaje.
+      .col-lg-10.mx-auto.mb-4
+        LineaTiempoD.color-acento-contenido
+          div(numero='1', titulo='Distribución en corto')
+            p Se da cuando el fabricante entrega al minorista y este último al consumidor final.
+            p Normalmente utilizado en el comercio electrónico cuando la plataforma de e-commerce conecta con el comprador.
+          div(numero='2', titulo='Distribución en largo')
+            p Desde el productor hasta el mayorista, de ahí al minorista y por último al consumidor. 
+            p Este tipo de distribución es el más común y es propio de pequeños negocios y tiendas de barrio tradicionales.
+          div(numero='3', titulo='Distribución doble')
+            p Aquella en la que además de mayoristas y minoristas, también interviene un tercer agente distribuidor o agente exclusivo que participa en la comercialización de productos.
+            p Es propia de franquicias o agencias de viaje.
 
       p Al momento de elegir el canal más adecuado para una empresa, se deberán tener en cuenta razones de costos, precios de venta, márgenes, estrategias de mercadeo, etc. El tipo de canal brinda un control diferente sobre la logística y la comercialización de los productos.
 
@@ -83,7 +84,7 @@
 
       .px-5.mb-4
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__texto.p-4.bRadius23
+          .bloque-texto-g__texto.p-4.bRadius23(style='z-index:10')
             p.mb-0 Para ello, es importante tener en cuenta los puntos fuertes y débiles, a través de la realización de la matriz de Debilidades, Oportunidades, Fortalezas y Amenazas, lo que permite identificar dichos aspectos y generar así estrategias para fomentarlos y publicitarlos.
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t2/f4.png')})`}"
@@ -100,37 +101,39 @@
 
     .col-lg-8.mx-auto.mb-5
       LineaTiempoD.color-acento-contenido
-        .row.align-items-center.fcp.p-4(numero='1' titulo='Una verdadera orientación al cliente')
+        .row.align-items-center.p-4(numero='1' titulo='Una verdadera orientación al cliente')
           .col
-            p Requiere que toda la empresa sienta ese compromiso, dándole una importancia central desde la estrategia de marketing, gestionando la relación de la empresa con los clientes, alcanzando la recompra y la fidelización, para entregar la generación de valor y mejorar la rentabilidad de la empresa. 
+            p Requiere que toda la empresa sienta ese compromiso, dándole una importancia central desde la estrategia de 
+              em marketing, 
+              | gestionando la relación de la empresa con los clientes, alcanzando la recompra y la fidelización, para entregar la generación de valor y mejorar la rentabilidad de la empresa. 
           .col-lg-3.order-first.order-lg-last
             figure
               img(src='@/assets/curso/t2/f5.svg')
-        .row.align-items-center.fcp.p-4(numero='2' titulo='Modelo estándar para la gestión de clientes')
+        .row.align-items-center.p-4(numero='2' titulo='Modelo estándar para la gestión de clientes')
           .col
             p Este debe ser el resultado de analizar sus clientes, conocer sus necesidades, expectativas y tener en cuenta también a la competencia, los proveedores y el entorno en general. 
           .col-lg-3.order-first.order-lg-last
             figure
               img(src='@/assets/curso/t2/f6.svg')
-        .row.align-items-center.fcp.p-4(numero='3' titulo='La mejor forma de fidelizar a un cliente')
+        .row.align-items-center.p-4(numero='3' titulo='La mejor forma de fidelizar a un cliente')
           .col
             p Consiste en generar acciones que se integren dentro del servicio ofrecido de forma natural y que faciliten al cliente la repetición. Esta facilitación en ocasiones es ciertamente una obligación, pero si se presenta de forma elegante parecerá más bien una invitación. (Baquero 2007)
           .col-lg-3.order-first.order-lg-last
             figure
               img(src='@/assets/curso/t2/f7.svg')
-        .row.align-items-center.fcp.p-4(numero='4' titulo='Al medir el grado de satisfacción del cliente')
+        .row.align-items-center.p-4(numero='4' titulo='Al medir el grado de satisfacción del cliente')
           .col
             p Se tiene la percepción sobre el cumplimiento de lo que esperaba recibir de la empresa y esta medición debe considerar indicadores tangibles que logren evaluar la calidad del servicio recibido.
           .col-lg-3.order-first.order-lg-last
             figure
               img(src='@/assets/curso/t2/f8.svg')
-        .row.align-items-center.fcp.p-4(numero='5' titulo='Opciones para conocer la percepción del cliente')
+        .row.align-items-center.p-4(numero='5' titulo='Opciones para conocer la percepción del cliente')
           .col
             p Se tienen las entrevistas personales, telefónicas, las encuestas y la evaluación de la calidad del servicio, las cuales se hacen de manera personal, telefónicamente y/o por medio de formularios en línea.
           .col-lg-3.order-first.order-lg-last
             figure
               img(src='@/assets/curso/t2/f9.svg')
-        .row.align-items-center.fcp.p-4(numero='6' titulo='La metodología CRM (Customer Relationship Management) o Administración de las Relaciones con los Clientes')
+        .row.align-items-center.p-4(numero='6' titulo='La metodología CRM (<em>Customer Relationship Management</em>) o Administración de las Relaciones con los Clientes')
           .col
             p Su objetivo es establecer relaciones de confianza con los consumidores, escuchándolos para conocerlos y para poder satisfacer sus necesidades y deseos, ganando así, su fidelidad y garantizando de esta forma los beneficios futuros para la empresa. 
           .col-lg-3.order-first.order-lg-last

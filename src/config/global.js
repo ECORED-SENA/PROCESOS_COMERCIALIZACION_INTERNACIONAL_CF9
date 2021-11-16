@@ -74,6 +74,39 @@ export default {
         ],
       },
     ],
+    subMenu: [
+      /*{
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },*/
+      {
+        nombreRuta: 'glosario',
+        icono: 'fas fa-sort-alpha-down',
+        titulo: 'Glosario',
+      },
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
+      {
+        icono: 'fas fa-book',
+        titulo: 'Referencias bibliográficas',
+        nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
+        icono: 'far fa-registered',
+        titulo: 'Créditos',
+        nombreRuta: 'creditos',
+      },
+    ],
   },
   referencias: [
     {
@@ -243,6 +276,33 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Kateryn Valderrama',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Alejandro Acevedo',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Beatriz Eugenia Agudelo Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -257,25 +317,31 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Marquez Sanabria',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Walter Roa Serrano',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      /*{
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+      },*/
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
