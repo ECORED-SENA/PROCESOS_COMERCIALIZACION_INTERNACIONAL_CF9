@@ -222,9 +222,9 @@
           span <b>Tabla 2.</b> Ejemplo de ficha de proveedores
         .tabla-a.color-primario.mb-5 
           table.w350px
-            thead
+            thead(style='border-color: #111e61')
               tr(style='background-color: #F4B55B !important')
-                th Ficha de proveedores
+                th.text-center Ficha de proveedores
             tbody
               tr
                 td Nombre: 

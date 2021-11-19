@@ -60,11 +60,13 @@
         .col-lg-5.offsetTop
           figure
             img(src='@/assets/curso/t2/f3.svg' alt='bodega')
-      .col-lg-10.mx-auto.mb-4
+      .col-lg-10.mx-auto
         LineaTiempoD.color-acento-contenido
           div(numero='1', titulo='Distribución en corto')
             p Se da cuando el fabricante entrega al minorista y este último al consumidor final.
-            p Normalmente utilizado en el comercio electrónico cuando la plataforma de e-commerce conecta con el comprador.
+            p Normalmente utilizado en el comercio electrónico cuando la plataforma de 
+              em e-commerce 
+              | conecta con el comprador.
           div(numero='2', titulo='Distribución en largo')
             p Desde el productor hasta el mayorista, de ahí al minorista y por último al consumidor. 
             p Este tipo de distribución es el más común y es propio de pequeños negocios y tiendas de barrio tradicionales.
@@ -72,7 +74,7 @@
             p Aquella en la que además de mayoristas y minoristas, también interviene un tercer agente distribuidor o agente exclusivo que participa en la comercialización de productos.
             p Es propia de franquicias o agencias de viaje.
 
-      p Al momento de elegir el canal más adecuado para una empresa, se deberán tener en cuenta razones de costos, precios de venta, márgenes, estrategias de mercadeo, etc. El tipo de canal brinda un control diferente sobre la logística y la comercialización de los productos.
+    p Al momento de elegir el canal más adecuado para una empresa, se deberán tener en cuenta razones de costos, precios de venta, márgenes, estrategias de mercadeo, etc. El tipo de canal brinda un control diferente sobre la logística y la comercialización de los productos.
 
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido

@@ -14,7 +14,7 @@
     
     figure.mb-5(data-aos='fade-left')
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pK5PASu6a_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Este documento le brindará conceptos pertinentes para realizar una adecuada selección de los proveedores, que le permita comprar bien y obtener mejor rentabilidad, así como se detalla en la siguiente figura:
 

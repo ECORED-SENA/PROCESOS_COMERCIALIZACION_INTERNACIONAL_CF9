@@ -123,7 +123,7 @@ export default {
     },
     {
       referencia:
-        'Baquero José Daniel, Rodríguez de Llauder Carlos, Baquero Mario, Huertas Fernando. Marketing de Clientes ¿Quién se ha llevado mi cliente? Mc Graw Hill. Madrid. 2007.',
+        'Baquero José Daniel, Rodríguez de Llauder Carlos, Baquero Mario, Huertas Fernando. <em>Marketing</em> de Clientes ¿Quién se ha llevado mi cliente? Mc Graw Hill. Madrid. 2007.',
     },
     {
       referencia:
@@ -163,11 +163,11 @@ export default {
     },
     {
       referencia:
-        'Restrepo, D. L. (2011). Artículo Zona logística, El SCM (Supply Chain Management), 32-35.',
+        'Restrepo, D. L. (2011). Artículo Zona logística, El SCM (<em>Supply Chain Management</em>), 32-35.',
     },
     {
       referencia:
-        'Revista Énfasis Logística. (2006). Cómo Abaratar costos en transporte. Énfasis Logística Online.',
+        'Revista Énfasis Logística. (2006). Cómo Abaratar costos en transporte. Énfasis Logística <em>Online</em>.',
     },
     {
       referencia:
@@ -200,7 +200,7 @@ export default {
     {
       termino: 'Bien de consumo',
       significado:
-        'un bien de consumo es la mercancía final en un proceso de producción. Así, satisface las necesidades de las personas de manera directa.',
+        'es la mercancía final en un proceso de producción. Así, satisface las necesidades de las personas de manera directa.',
     },
     {
       termino: 'Bien intermedio',
@@ -230,7 +230,7 @@ export default {
     {
       termino: 'Inventario',
       significado:
-        'es un sistema para contar, medir o pesar todas sus existencias y anotar las cantidades en un Listado de Inventario (Lista de Inventario).',
+        'es un sistema para contar, medir o pesar todas sus existencias y anotar las cantidades en un listado de inventario (Lista de Inventario).',
     },
     {
       termino: 'Materias primas',
@@ -241,7 +241,7 @@ export default {
   complementario: [
     {
       texto:
-        'Cámara de Comercio de Medellín (2011).	Cámara de Comercio de Medellín (2011). La cadena de valor como herramienta para el pensamiento estratégico. Medellín, Colombia.',
+        'Cámara de Comercio de Medellín (2011). La cadena de valor como herramienta para el pensamiento estratégico. Medellín, Colombia.',
       tipo: 'Artículo web',
       link:
         'http://herramientas.camaramedellin.com.co/Inicio/Buenaspracticasempresariales/BibliotecaGerenciaEstrategica/Lacadenadevalorcomoherramientaparaelpensam.aspx',
@@ -255,7 +255,7 @@ export default {
     },
     {
       texto:
-        'BALLOU, RONALD H. Logística. Administración de la cadena de suministro. Quinta edición. PEARSON EDUCACIÓN, México, 2004. ISBN: 970-26-0540-7.',
+        'Ballou, Ronald H. Logística. Administración de la cadena de suministro. Quinta edición. Pearson Educación, México, 2004. ISBN: 970-26-0540-7.',
       tipo: 'Libro',
       link:
         'https://es.pdfdrive.com/log%C3%ADstica-administraci%C3%B3n-de-la-cadena-de-suministro-e188929651.html',
